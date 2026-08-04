@@ -78,15 +78,9 @@ header.scrolled{background:rgba(255,255,255,.92);border-bottom-color:var(--line-
 .hero .diff{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--gold-text);
   border:1px solid var(--line-gold);background:rgba(200,164,92,.08);border-radius:100px;padding:7px 15px;margin-bottom:26px}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
-.hero-media{aspect-ratio:4/5;border-radius:24px;border:1px solid var(--line-gold);
-  position:relative;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-soft);background:#fff}
-.hero-media .hm-bottle{flex:1 1 0;min-height:0;display:grid;place-items:center;padding:20px;
-  background:radial-gradient(120% 90% at 50% 25%,#fff,var(--paper-3))}
-.hero-media .hm-bottle img{max-height:100%;max-width:86%;width:auto;object-fit:contain;
-  filter:drop-shadow(0 16px 26px rgba(60,45,15,.16))}
-.hero-media .hm-logo{flex:1 1 0;min-height:0;display:grid;place-items:center;padding:18px;
-  border-top:1px solid var(--line-gold);background:var(--paper)}
-.hero-media .hm-logo img{max-width:54%;max-height:66%;width:auto;object-fit:contain}
+.hero-media{aspect-ratio:1/1;border-radius:24px;border:1px solid var(--line-gold);
+  position:relative;overflow:hidden;box-shadow:var(--shadow-soft);background:#f3eee6}
+.hero-media .hero-full{width:100%;height:100%;object-fit:cover;display:block}
 .ph{color:var(--muted);font-size:13px;text-align:center;padding:24px;line-height:1.7}
 .ph b{color:var(--gold-text);display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:8px}
 .trust{display:flex;gap:34px;margin-top:40px;flex-wrap:wrap}
